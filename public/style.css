@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('Skyblock-Map.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+label {
+    padding: 10px;
+}
+
+
+/* Responsive Styles */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.effective-health-group {
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.final-damage-group {
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ability-damage-group {
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.stat-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

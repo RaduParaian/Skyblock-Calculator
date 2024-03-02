@@ -1,0 +1,25 @@
+{
+  "name": "skyblock-calculator",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "tsc -w",
+    "start": "node main.js",
+    "build:prod": "rimraf ./build && tsc",
+    "start:prod": "npm run build:prod && node build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-hosting": "firebase deploy --only hosting"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

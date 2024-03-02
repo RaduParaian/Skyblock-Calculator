@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- include main.js -->
+  <script src="./build/main.js"></script>
+  <!-- include style.css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- include font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Skyblock Calculator</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Itsuki's Skyblock Calculator</h1>
+  </div>
+  <div class="content">
+    <div class="effective-health-group container">
+      <h2>Effective Health</h2>
+      <div class="stat-group">
+        <label for="health-input" class="item">Health</label>
+        <textarea id="health-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="defence-input" class="item">Defence</label>
+        <textarea id="defence-input" class="item" placeholder="0"></textarea>
+      </div>
+      <textarea id="effective-health-output" class="item" placeholder="Effective Health" readonly></textarea>
+    </div>
+    <div class="final-damage-group container">
+      <h2>Final Damage</h2>
+      <div class="stat-group">
+        <label for="weapon-damage-input" class="item">Damage</label>
+        <textarea id="weapon-damage-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="strength-input" class="item">Strength</label>
+        <textarea id="strength-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="critical-damage-input" class="item">Critical Damage</label>
+        <textarea id="critical-damage-input" class="item" placeholder="0"></textarea>
+      </div>
+      <textarea id="final-damage-output" class="item" placeholder="Final Damage" readonly></textarea>
+    </div>
+    <div class="ability-damage-group container">
+      <h2>Ability Damage</h2>
+      <div class="stat-group">
+        <label for="base-ability-damage-input" class="item">Ability Damage</label>
+        <textarea id="base-ability-damage-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="intelligence-input" class="item">Intelligence</label>
+        <textarea id="intelligence-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="ability-scaling-input" class="item">Ability Scaling</label>
+        <textarea id="ability-scaling-input" class="item" placeholder="0"></textarea>
+      </div>
+      <div class="stat-group">
+        <label for="bonus-ability-damage-stat-input" class="item">Ability Stat</label>
+        <textarea id="bonus-ability-damage-stat-input" class="item" placeholder="0"></textarea>
+      </div>
+      <textarea id="ability-damage-output" class="item" placeholder="Ability Damage" readonly></textarea>
+    </div>
+  </div>
+
+</body>
+
+</html>
